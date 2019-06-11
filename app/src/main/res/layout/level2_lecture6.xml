@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Happy" />
+
+    <TextView
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@id/first"
+            android:layout_toRightOf="@id/first"
+
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Birthday" android:layout_marginLeft="72dp"
+            android:layout_marginStart="10dp"/>
+
+    <TextView
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toEndOf="@id/second"
+            android:layout_toRightOf="@id/second"
+
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="To You" android:layout_marginLeft="70dp"
+            android:layout_marginStart="10dp"/>
+
+</RelativeLayout>

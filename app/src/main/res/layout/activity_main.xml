@@ -39,7 +39,7 @@
                     android:background="#C0C0C0"
                     android:textColor="#2F2F2F"
                     android:textSize="18sp"
-                    android:fontFamily="@font/IndieFlower"
+                    android:fontFamily="@font/indie_flower"
                     android:textStyle="bold|italic"
 
                     tools:targetApi="jelly_bean"
@@ -50,7 +50,7 @@
         </LinearLayout>
 
         <ImageView
-                android:src="@drawable/БобруцковЕвгенийВасильевич"
+                android:src="@drawable/bobrutskov_eugene_vasilevich"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
